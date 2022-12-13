@@ -43,7 +43,8 @@ class OngController {
     }
 
     async destroy(req, res){
-      try { const { index } = req.params
+      try {
+         const { index } = req.params
          const ongDeleted = await OngModel.findByIdAndDelete(index)
          if (!ongDeleted) return res.status(404).json({message: "ONG does not exist"})
          return res.status(200).json({message:"ONG deleted}"})
