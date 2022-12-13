@@ -2,7 +2,7 @@
 LONGs é um localizador de Ongs.
 
 Este repositório possui o backend do meu TCC.
-Este backend será responsável por receber as requests e manipular as ONGs no banco de dados de acordo com o [Front](https://github.com/samisafatli/LongsClient.
+Este backend será responsável por receber as requests e manipular as ONGs no banco de dados de acordo com o [Front](https://github.com/samisafatli/LongsClient).
 
 ## Setup
 
